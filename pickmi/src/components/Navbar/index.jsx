@@ -1,7 +1,8 @@
 import React from 'react';
 /*import the logo from ;*/
-import {Pickmi, Nav, NavbarContainer, NavbarLogo} from './NavbarElements';
+import {Pickmi, Nav, NavbarContainer, NavbarLogo, MobileIcon} from './NavbarElements';
 import Logo from '../../images/logo.png'
+import {FaBars} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -10,6 +11,9 @@ const Navbar = () => {
           <NavbarLogo to='/'>
             <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
           </NavbarLogo>
+          <MobileIcon>
+            <FaBars size={120}/>
+          </MobileIcon>
         </NavbarContainer>
       </Nav>
   )
