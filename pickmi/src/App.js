@@ -9,21 +9,14 @@ import Footer from './Footer';
 
 function App() {
   return (
-    // <>
-    // <Router>
-    //   {/* <Navbar/> */}
-    //   <Routes>
-    //     <Route path='/welcome' element={<Home/>} />
-    //   </Routes>
-    // </Router>
-    // </>
+    <>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
+    </Router>
+    </>
 
-    <div>
-      <h1>This is App landing page.</h1>
-      <Header/>
-      <img src={logo}/>
-      <Footer/>
-    </div>
   );
 }
 
