@@ -41,4 +41,5 @@ body {
   background-image: url("./images/back-pic.jpeg");
   background-repeat:no-repeat;
   background-size:cover;
+  z-index:0;
 }
