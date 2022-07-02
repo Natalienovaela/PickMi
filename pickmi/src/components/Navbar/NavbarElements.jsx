@@ -37,7 +37,7 @@ export const Pickmi = styled.img.attrs({
     cursor: pointer;
     display: inline-block;
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
     margin-top:47.5%;
     margin-left:10%;
 `
@@ -45,10 +45,10 @@ export const Pickmi = styled.img.attrs({
 export const MobileIcon = styled.div`
     display: inline-block;
     position: absolute;
-    top:7.4%;
+    top:6.1%;
     align-items:center;
     transform: translate(-50%, -50%);
-    right:3.5%;
+    right:1.8%;
     font-size: 1.8rem;
     cursor: pointer;
     color: purple;

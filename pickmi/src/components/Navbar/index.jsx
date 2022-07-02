@@ -12,7 +12,7 @@ const Navbar = () => {
             <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
           </NavbarLogo>
           <MobileIcon>
-            <FaBars size={115}/>
+            <FaBars size={150}/>
           </MobileIcon>
         </NavbarContainer>
       </Nav>
