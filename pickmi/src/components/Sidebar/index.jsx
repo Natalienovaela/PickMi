@@ -5,7 +5,10 @@ import {
   CloseIcon, 
   SidebarWrapper,
   SidebarMenu, 
-  SidebarLink} from './SidebarElements'
+  SidebarLink,
+  SideBtnWrap,
+  SidebarRoute
+} from './SidebarElements'
 
 const Sidebar = () => {
   return (
@@ -15,10 +18,13 @@ const Sidebar = () => {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to="/about">About</SidebarLink>
+            <SidebarLink class = "active" to="/about">About</SidebarLink>
             <SidebarLink to="/FAQ">FAQ</SidebarLink>
             <SidebarLink to="/Contact Us">Contact Us</SidebarLink>
           </SidebarMenu>
+          <SideBtnWrap>
+            <SidebarRoute to="/home">Pick a restaurant!</SidebarRoute>
+          </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
   )
