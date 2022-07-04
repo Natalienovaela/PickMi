@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements';
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, FooterCopyrightItem, FooterCopyrightContainer} from './FooterElements';
 
 const Footer = () => {
   return (
@@ -16,6 +16,10 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <FooterCopyrightContainer>
+          <FooterCopyrightItem>Copyright (c) 2022 Natasha Rafaela and Veronica Angelin</FooterCopyrightItem>
+          <FooterCopyrightItem>made using ReactApp</FooterCopyrightItem>
+        </FooterCopyrightContainer>
       </FooterWrap>
     </FooterContainer>
   )

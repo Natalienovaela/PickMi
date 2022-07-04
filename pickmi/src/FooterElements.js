@@ -60,3 +60,13 @@ export const FooterLink = styled(Link)`
         transition: 0.3s ease-out;
     }
 `
+export const FooterCopyrightItem = styled.p`
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+`
+export const FooterCopyrightContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
