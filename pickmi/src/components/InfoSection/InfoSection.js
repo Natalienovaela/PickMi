@@ -1,8 +1,8 @@
 import React from "react";
-import { InfoSec } from "./InfoSectionelements";
 import { Container } from "./InfoSectionelements";
+import { InfoSec, InfoRow, InfoColumn, TextWrapper } from "./InfoSectionelements";
 
-const InfoSection = ({lightBg}) => {
+const InfoSection = ({lightBg, imgStart}) => {
     return (
         <>
             <InfoSec lightBg={lightBg}>
@@ -10,7 +10,7 @@ const InfoSection = ({lightBg}) => {
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
                             <TextWrapper>
-                                h
+                                This is where the text goes
                             </TextWrapper>
                         </InfoColumn>
                     </InfoRow>
