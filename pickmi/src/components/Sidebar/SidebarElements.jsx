@@ -78,7 +78,7 @@ export const SidebarRoute = styled(LinkR) `
     background: #fae1e1;
     whitespace: nowrap;
     color: #745454;
-    font-size: 5.8rem;
+    font-size: 6rem;
     outline: none;
     border:none;
     padding: 50px 50px;
@@ -91,7 +91,7 @@ export const SidebarRoute = styled(LinkR) `
         transition: all 0.2s ease-in-out;
         background: #523b3b;
         color: #fae1e1;
-        font-size: 6.2rem;
+        font-size: 6.5rem;
         text-shadow: .12em .05em 0 hsl(110, 1%, 6%);
     }
 `
