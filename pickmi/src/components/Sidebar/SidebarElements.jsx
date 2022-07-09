@@ -6,7 +6,7 @@ export const SidebarContainer = styled.aside`
     position: fixed;
     background-color: #745454;
     z-index: 999;
-    width: 20%;
+    width: 17%;
     height: 100%;
     display: grid;
     align-items: center;
@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
     right: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
-    left: ${({isOpen}) => (isOpen ? '80%' : '100%')};
+    left: ${({isOpen}) => (isOpen ? '83%' : '100%')};
     top: 0;
 
     @media screen and (max-width: 4760px) {
@@ -24,7 +24,7 @@ export const SidebarContainer = styled.aside`
     }
 `
 export const CloseIcon = styled(FaTimes) `
-    color: #ffffff;
+    color: #fae1e1;
 `
 export const Icon = styled.div`
     position: absolute;
