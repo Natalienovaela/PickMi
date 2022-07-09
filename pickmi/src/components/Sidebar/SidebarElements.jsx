@@ -16,6 +16,12 @@ export const SidebarContainer = styled.aside`
     opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
     left: ${({isOpen}) => (isOpen ? '80%' : '100%')};
     top: 0;
+
+    @media screen and (max-width: 4760px) {
+        opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
+        left: ${({isOpen}) => (isOpen ? '0%' : '100%')};
+        width: 100%;
+    }
 `
 export const CloseIcon = styled(FaTimes) `
     color: #ffffff;
