@@ -22,7 +22,7 @@ export const SidebarContainer = styled.aside`
         left: ${({isOpen}) => (isOpen ? '0%' : '100%')};
         width: 100%;
     }
- `
+`
 export const CloseIcon = styled(FaTimes) `
     color: #fae1e1;
 `
