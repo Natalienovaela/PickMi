@@ -1,5 +1,4 @@
 import React from 'react';
-/*import the logo from ;*/
 import {Pickmi, Nav, NavbarContainer, NavbarLogo, MobileIcon} from './NavbarElements';
 import Logo from '../../images/logo.png'
 import {FaBars} from 'react-icons/fa'

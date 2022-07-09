@@ -1,11 +1,12 @@
 import React from 'react'
-/*import Land from '../components/LandSection/land.jsx'*/
+import Land from '../components/LandSection/land.jsx';
 
 const LandingPage = () => {
   return (
-    <div>
-    </div>
+    <>
+      <Land />
+    </>
   )
-}
+};
 
 export default LandingPage;
