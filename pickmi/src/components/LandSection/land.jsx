@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../images/logo.png'
+import {LandContainer, LandLogo, Pickmi} from './LandElements.jsx'
 
 const Land = () => {
   return (

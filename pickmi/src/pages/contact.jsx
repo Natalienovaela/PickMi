@@ -1,10 +1,10 @@
 import React from 'react'
 
-const FAQ = () => {
+const Contact = () => {
   return (
     <>
     </>
   )
 }
 
-export default FAQ;
+export default Contact;

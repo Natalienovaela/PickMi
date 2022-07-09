@@ -1,9 +1,11 @@
 import React from 'react'
+/*import Land from '../components/LandSection/land.jsx'*/
 
 const LandingPage = () => {
   return (
-    <div>landing</div>
+    <div>
+    </div>
   )
 }
 
-export default LandingPage
+export default LandingPage;

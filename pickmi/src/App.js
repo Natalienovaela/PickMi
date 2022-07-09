@@ -1,17 +1,31 @@
-import React from 'react';
+import React, {useState} from 'react'
 import './App.css';
-import Home from './pages/home.jsx'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './pages'
-import LandingPage from './pages/landing'
-
+import Filter from './pages/filter.jsx'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import LandingPage from './pages/landing';
+import Contact from './pages/contact';
+import About from './pages/about';
+import FAQ from './pages/faq';
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
+ 
 function App() {
+  const[isOpen, setIsOpen] = useState(false);
+    
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    };
   return (
     <Router>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/" component={LandingPage} exact />
-      </Switch>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Navbar toggle={toggle} />
+      <Routes>
+        <Route path="/filter" element ={<Filter/>} />
+        <Route path="/" element ={<LandingPage/>}/>
+        <Route path="/contact" element ={<Contact/>}/>
+        <Route path="/about" element ={<About/>}/>
+        <Route path="/faq" element ={<FAQ/>}/>
+      </Routes>
     </Router>
   );
 }
