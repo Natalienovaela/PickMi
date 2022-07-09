@@ -13,8 +13,8 @@ export const SidebarContainer = styled.aside`
     top: 0;
     right: 0;
     transition: 0.3s ease-in-out;
-    /*opacity: ${({isOpen}) => (isOpen ? '90%' : '0')};
-    left: ${({isOpen}) => (isOpen ? '80%' : '100%')};*/
+    opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
+    left: ${({isOpen}) => (isOpen ? '80%' : '100%')};
     top: 0;
 `
 export const CloseIcon = styled(FaTimes) `
@@ -56,6 +56,10 @@ export const SidebarLink = styled(LinkR)`
         transition: 0.2s ease-in-out;
         font-size: 7.5rem;
         text-shadow: .12em .05em 0 hsl(110, 1%, 6%);
+    }
+
+    &.active {
+        color: green;
     }
 `
 export const SideBtnWrap = styled.div`

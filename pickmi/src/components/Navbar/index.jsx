@@ -4,14 +4,14 @@ import {Pickmi, Nav, NavbarContainer, NavbarLogo, MobileIcon} from './NavbarElem
 import Logo from '../../images/logo.png'
 import {FaBars} from 'react-icons/fa'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
       <Nav>
         <NavbarContainer>
           <NavbarLogo to='/'>
             <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
           </NavbarLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars size={150}/>
           </MobileIcon>
         </NavbarContainer>
