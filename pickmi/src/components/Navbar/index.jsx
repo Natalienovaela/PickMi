@@ -8,7 +8,7 @@ const Navbar = ({toggle}) => {
   return (
       <Nav>
         <NavbarContainer>
-          <NavbarLogo to='/'>
+          <NavbarLogo to='/home'>
             <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
           </NavbarLogo>
           <MobileIcon onClick={toggle}>

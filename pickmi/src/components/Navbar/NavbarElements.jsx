@@ -39,7 +39,7 @@ export const Pickmi = styled.img.attrs({
     height: auto;
     max-width: 100%;
     margin-top:47.5%;
-    margin-left:10%;
+    margin-left:25%;
 `
 
 export const MobileIcon = styled.div`
