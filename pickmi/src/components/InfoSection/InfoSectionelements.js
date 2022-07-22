@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import homebg from '../../images/home_background.png';
 
 export const InfoSec = styled.div`
 color: #fff;
@@ -45,12 +46,29 @@ flex-basis: 50%;
 }
 `
 
-export const TextWrapper = styled.div`
+export const TextWrapper = styled.h2`
 max-width: 540px;
 padding-top: 0;
-padding-bottom: 60px;
 
 @media screen and (max-width: 768px) {
     padding-bottom: 65px;
+}
+`
+export const TitleWrapper = styled.h1`
+max-width: 540px;
+padding-top: 0;
+padding-bottom: 30px;
+font-size: 40px;
+
+@media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+}
+`
+
+export const SocialIcon = styled.div`
+max-width: 540px;
+padding: 10px;
+display: inline-block;
+flex: 1;
 }
 `

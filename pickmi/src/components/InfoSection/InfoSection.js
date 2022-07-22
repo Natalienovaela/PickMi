@@ -1,16 +1,47 @@
 import React from "react";
 import { Container } from "./InfoSectionelements";
-import { InfoSec, InfoRow, InfoColumn, TextWrapper } from "./InfoSectionelements";
+import { InfoSec, InfoRow, InfoColumn, TitleWrapper, SocialIcon, TextWrapper } from "./InfoSectionelements";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import homebg from '../../images/home_background.png';
 
 const InfoSection = ({lightBg, imgStart}) => {
+
     return (
         <>
             <InfoSec lightBg={lightBg}>
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
+                            <TitleWrapper>
+                                Contact Us
+                            </TitleWrapper>
                             <TextWrapper>
-                                This is where the text goes
+                                Natasha Rafaela
+                            </TextWrapper>
+                            <TextWrapper>
+                                <SocialIcon>
+                                    <a href ="www.google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </SocialIcon>
+                                <SocialIcon>
+                                    <a href ="www.google.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </SocialIcon>
+                                <SocialIcon>
+                                    <a href ="www.google.com"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </SocialIcon>
+                            </TextWrapper>
+                            <TextWrapper>
+                                Veronica Angelin Setiyo
+                            </TextWrapper>
+                            <TextWrapper>
+                                <SocialIcon>
+                                    <a href ="google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </SocialIcon>
+                                <SocialIcon>
+                                    <a href ="google.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </SocialIcon>
+                                <SocialIcon>
+                                    <a href ="google.com"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </SocialIcon>
                             </TextWrapper>
                         </InfoColumn>
                     </InfoRow>
