@@ -15,10 +15,10 @@ const InfoSection = () => {
                     </Bg>
                     <InfoRow>
                         <InfoColumn>
-                            <TitleWrapper>
+                            <TitleWrapper className="font-link">
                                 Contact Us
                             </TitleWrapper>
-                            <TextWrapper>
+                            <TextWrapper className="font-link2">
                                 Natasha Rafaela
                             </TextWrapper>
                             <TextWrapper>
@@ -32,7 +32,7 @@ const InfoSection = () => {
                                     <a href ="www.google.com"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </SocialIcon>
                             </TextWrapper>
-                            <TextWrapper>
+                            <TextWrapper className="font-link2">
                                 Veronica Angelin Setiyo
                             </TextWrapper>
                             <TextWrapper>

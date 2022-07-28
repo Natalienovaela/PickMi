@@ -3,7 +3,7 @@ import homebg from '../../images/home_background.png';
 
 export const InfoSec = styled.div`
 color: #8C46B6;
-padding: 160px 0;
+padding: 120px 0;
 background: ${({lightBg}) => (lightBg? '#fff' : '#101522')};
 `
 
@@ -16,7 +16,7 @@ margin-left: auto;
 padding-right: 50px;
 padding-left: 50px;
 
-@media screen {
+@media screen and (max-width: 991px) {
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -31,10 +31,6 @@ left: 0;
 width: 100%;
 height: 100%;
 overflow: hidden;
-@media screen {
-    max-height: 100%;
-    flex-basis: 100%;
-}
 `
 
 export const BgImage = styled.img`
@@ -43,10 +39,6 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #000000;
-@media screen {
-    max-height: 100%;
-    flex-basis: 100%;
-}
 `
 
 export const InfoRow = styled.div`
@@ -62,36 +54,40 @@ flex-direction: ${({imgStart}) => (imgStart ? 'row-reverse' : 'row')};
 export const InfoColumn = styled.div`
 margin-bottom: 15px;
 padding-right: 15px;
-padding-left: 15px;
+padding-left: 25px;
 
-@media screen {
+@media screen and (max-width: 768px) {
     max-width: 100%;
     flex-basis: 100%;
 }
 `
 
 export const TextWrapper = styled.h2`
-max-width: 540px;
-padding-top: 0;
+padding-left: 70px;
+font-size: 35px;
 
-@media screen and (max-width: 768px) {
-    padding-bottom: 65px;
+@media screen and (max-width: 668px) {
+    padding-left: 30px;
+    font-size: 30px;
 }
 `
+
 export const TitleWrapper = styled.h1`
 max-width: 540px;
-padding-top: 0;
-padding-bottom: 30px;
-font-size: 40px;
+padding-bottom: 10px;
+padding-left: 20px;
+font-size: 60px;
 
-@media screen and (max-width: 768px) {
-    padding-bottom: 65px;
+@media screen and (max-width: 668px) {
+    padding-left: 10px;
+    font-size: 50px;
 }
 `
 
 export const SocialIcon = styled.div`
 max-width: 540px;
-padding: 10px;
+padding: 20px;
+padding-top: 0px;
 display: inline-block;
 flex: 1;
 }
