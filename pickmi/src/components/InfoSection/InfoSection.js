@@ -1,16 +1,19 @@
 import React from "react";
 import { Container } from "./InfoSectionelements";
-import { InfoSec, InfoRow, InfoColumn, TitleWrapper, SocialIcon, TextWrapper } from "./InfoSectionelements";
+import { InfoSec, InfoRow, InfoColumn, TitleWrapper, SocialIcon, TextWrapper, Bg, BgImage } from "./InfoSectionelements";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import homebg from '../../images/home_background.png';
 
-const InfoSection = ({lightBg, imgStart}) => {
+const InfoSection = () => {
 
     return (
         <>
-            <InfoSec lightBg={lightBg}>
+            <InfoSec>
                 <Container>
-                    <InfoRow imgStart={imgStart}>
+                    <Bg>
+                       <BgImage src={homebg}/> 
+                    </Bg>
+                    <InfoRow>
                         <InfoColumn>
                             <TitleWrapper>
                                 Contact Us

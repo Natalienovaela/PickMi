@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import homebg from '../../images/home_background.png';
 
 export const InfoSec = styled.div`
-color: #fff;
+color: #8C46B6;
 padding: 160px 0;
 background: ${({lightBg}) => (lightBg? '#fff' : '#101522')};
 `
@@ -16,12 +16,41 @@ margin-left: auto;
 padding-right: 50px;
 padding-left: 50px;
 
-@media screen and (max-width: 991px) {
+@media screen {
     padding-right: 50px;
     padding-left: 50px;
 }
 `
+
+export const Bg = styled.div`
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+@media screen {
+    max-height: 100%;
+    flex-basis: 100%;
+}
+`
+
+export const BgImage = styled.img`
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+background: #000000;
+@media screen {
+    max-height: 100%;
+    flex-basis: 100%;
+}
+`
+
 export const InfoRow = styled.div`
+position: absolute;
 display: flex;
 margin: 0 -15px -15px -15px;
 flex-wrap: wrap;
@@ -34,15 +63,10 @@ export const InfoColumn = styled.div`
 margin-bottom: 15px;
 padding-right: 15px;
 padding-left: 15px;
-flex: 1;
-max-width: 50%;
-flex-basis: 50%;
 
-@media screen and (max-width: 768px) {
+@media screen {
     max-width: 100%;
     flex-basis: 100%;
-    display: flex;
-    justify-content: center;
 }
 `
 
