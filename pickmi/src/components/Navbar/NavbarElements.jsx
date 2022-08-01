@@ -4,7 +4,7 @@ import Logo from '../../images/logo.png'
 
 export const Nav = styled.nav`
     /*background: #745454;*/
-    height: 310px;
+    height: 77.5px;
     width: 100%;
     display: inline-block;
     justify-content: center;
@@ -15,9 +15,9 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 20px;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 6px;
     max-width: 1100px;
    /* background: #745454;*/
 `
@@ -27,7 +27,7 @@ export const NavbarLogo = styled(LinkR)`
     align-items: center;
     color: red;
    /* background:#745454;*/
-    width: 50%;
+    width: 125px;
     height:auto;
 `
 
@@ -39,7 +39,7 @@ export const Pickmi = styled.img.attrs({
     height: auto;
     max-width: 100%;
     margin-top:47.5%;
-    margin-left:25%;
+    margin-left:12.5%;
 `
 
 export const MobileIcon = styled.div`
@@ -48,7 +48,7 @@ export const MobileIcon = styled.div`
     top:6.1%;
     align-items:center;
     transform: translate(-50%, -50%);
-    right:1.8%;
+    right:0.45%;
     font-size: 1.8rem;
     cursor: pointer;
     color: purple;

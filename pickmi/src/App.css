@@ -38,8 +38,16 @@
 }
 
 body {
-  background-image: url("./images/back-pic.jpeg");
-  background-repeat:no-repeat;
-  background-size:cover;
-  z-index:0;
+  background-image: url("./images/home_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.font-link {
+  font-family: 'Berkshire Swash';
+}
+
+.font-link2 {
+  font-family: 'Open Sans', sans-serif;
 }

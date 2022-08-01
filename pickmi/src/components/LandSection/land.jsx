@@ -8,7 +8,7 @@ const Land = () => {
       <LandContent>
         <Landh1>Welcome to</Landh1>
         <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
-        <Landp>Your personal restaurant picker</Landp>   
+        <Landp>your personal restaurant picker</Landp>   
         <ButtonWrp>
           <Button to="/filter">
            Pick a restaurant!

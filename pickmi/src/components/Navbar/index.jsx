@@ -11,7 +11,7 @@ const Navbar = ({toggle}) => {
             <Pickmi src={Logo} alt="pickmi-logo"></Pickmi>
           </NavbarLogo>
           <MobileIcon onClick={toggle}>
-            <FaBars size={150}/>
+            <FaBars size={37.5}/>
           </MobileIcon>
         </NavbarContainer>
       </Nav>

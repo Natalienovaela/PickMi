@@ -17,7 +17,7 @@ export const SidebarContainer = styled.aside`
     left: ${({isOpen}) => (isOpen ? '83%' : '100%')};
     top: 0;
 
-    @media screen and (max-width: 4760px) {
+    @media screen and (max-width: 1190px) {
         opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
         left: ${({isOpen}) => (isOpen ? '0%' : '100%')};
         width: 100%;
@@ -28,10 +28,10 @@ export const CloseIcon = styled(FaTimes) `
 `
 export const Icon = styled.div`
     position: absolute;
-    top: 6rem;
-    right: 2rem;
+    top: 1.5rem;
+    right: 1.25rem;
     background: transparent;
-    font-size: 2rem;
+    font-size: 0.5rem;
     cursor: pointer;
     outline: none;
 `
@@ -45,7 +45,7 @@ export const SidebarLink = styled(LinkR)`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 6.8rem;
+    font-size: 1.7rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
@@ -59,7 +59,7 @@ export const SidebarLink = styled(LinkR)`
         background: #523b3b;
         background-size: auto;
         transition: 0.2s ease-in-out;
-        font-size: 7.5rem;
+        font-size: 1.875rem;
         text-shadow: .12em .05em 0 hsl(110, 1%, 6%);
     }
 
@@ -71,17 +71,18 @@ export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 0;
+    margin-bottom: -300px;
 `
 
 export const SidebarRoute = styled(LinkR) `
-    border-radius: 5000px;
+    border-radius: 1250px;
     background: #fae1e1;
     whitespace: nowrap;
     color: #745454;
-    font-size: 6rem;
+    font-size: 1.5rem;
     outline: none;
     border:none;
-    padding: 50px 50px;
+    padding: 12.5px 12.5px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
@@ -91,7 +92,7 @@ export const SidebarRoute = styled(LinkR) `
         transition: all 0.2s ease-in-out;
         background: #523b3b;
         color: #fae1e1;
-        font-size: 6.5rem;
+        font-size: 1.625rem;
         text-shadow: .12em .05em 0 hsl(110, 1%, 6%);
     }
 `
@@ -99,7 +100,7 @@ export const SidebarRoute = styled(LinkR) `
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 250px);
+    grid-template-rows: repeat(8, 55px);
     text-align: center;
     margin-left:0;
     padding-left:0;
