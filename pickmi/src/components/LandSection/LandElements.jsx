@@ -37,7 +37,7 @@ export const Landp = styled.p`
     z-index:0;
     position: relative;
     bottom: 70px;
-    font-family: "Times New Roman";
+    font-family: "sans-serif";
     padding-top: 2.5px;
 
     @media screen and (max-width: 760px) {
