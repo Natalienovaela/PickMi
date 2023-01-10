@@ -23,13 +23,13 @@ const InfoSection = () => {
                             </TextWrapper>
                             <TextWrapper>
                                 <SocialIcon>
-                                    <a href ="www.google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    <a target = "_blank" href ="https://www.google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                 </SocialIcon>
                                 <SocialIcon>
-                                    <a href ="www.google.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a target = "_blank" href ="https://www.linkedin.com/in/natasharafaela"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </SocialIcon>
                                 <SocialIcon>
-                                    <a href ="www.google.com"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                    <a target = "_blank" href ="https://github.com/Natalienovaela"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </SocialIcon>
                             </TextWrapper>
                             <TextWrapper className="font-link2">

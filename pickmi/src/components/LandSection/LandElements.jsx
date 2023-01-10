@@ -31,13 +31,13 @@ export const Landh1 = styled.h1`
 
 export const Landp = styled.p`
     margin-top: 0;
-    color: purple;
+    color: #8c46b6;
     font-size: 250%;
     text-align: center;
     z-index:0;
     position: relative;
     bottom: 70px;
-    font-family: "sans-serif";
+    font-family: "Comic Sans";
     padding-top: 2.5px;
 
     @media screen and (max-width: 760px) {
