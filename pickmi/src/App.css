@@ -32,14 +32,12 @@
   }
 }
 
-<<<<<<< HEAD
 body {
   background-image: url("./images/back-pic.jpeg");
   background-repeat:no-repeat;
   background-size:cover;
   z-index:0;
 }
-=======
 .font-link {
   font-family: 'Berkshire Swash';
 }
@@ -47,4 +45,3 @@ body {
 .font-link2 {
   font-family: 'Open Sans', sans-serif;
 }
->>>>>>> 52497cb0a8b8345b418ee4b03e63ace5e1f2b839
