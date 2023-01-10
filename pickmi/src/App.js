@@ -8,7 +8,10 @@ import About from './pages/about';
 import FAQ from './pages/faq';
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
- 
+// import Navbar from '../Navbar';
+import './App.css';
+import logo from './images/logo.png';
+
 function App() {
   const[isOpen, setIsOpen] = useState(false);
     
